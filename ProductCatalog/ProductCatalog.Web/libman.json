@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "holder@2.9.6",
+      "destination": "Scripts/holder/"
+    },
+    {
+      "library": "feather-icons@4.24.1",
+      "destination": "Scripts/feather-icons/"
+    },
+    {
+      "library": "Chart.js@2.8.0",
+      "destination": "Scripts/Chart.js/"
+    }
+  ]
+}
