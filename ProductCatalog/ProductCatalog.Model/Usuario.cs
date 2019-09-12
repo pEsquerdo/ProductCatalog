@@ -21,5 +21,10 @@ namespace ProductCatalog.Model
         //Campo adicionado após a criação do Banco de Dados
         [DataType(DataType.PhoneNumber), StringLength(20)]
         public string Telefone { get; set; }
+
+        public Usuario()
+        {
+            Ativo = true;
+        }
     }
 }
